@@ -6,9 +6,7 @@ using System.Text;
 
 namespace Client
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         int count=3;
@@ -21,6 +19,7 @@ namespace Client
         public MainWindow()
         {
             InitializeComponent();
+            //btn_snd.Content = "Send";
         }
 
         private void Connect(string userName,string msg, string ip, int port)
@@ -88,7 +87,7 @@ namespace Client
 
         private void Button_Connect(object sender, RoutedEventArgs e)
         {
-           
+            
             if (count == 0)
             {
                 CHAT.Text += "\n Попытки законились";

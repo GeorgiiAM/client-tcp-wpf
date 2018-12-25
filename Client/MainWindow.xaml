@@ -8,7 +8,7 @@
         Title="MainWindow" Height="581.093" Width="800">
     <Grid>
         <TextBox x:Name="txt_msg" HorizontalAlignment="Left" Height="67" Margin="31,156,0,0" TextWrapping="Wrap" Text="Message" VerticalAlignment="Top" Width="739"/>
-        <Button x:Name="btn_snd" Content="Button" HorizontalAlignment="Left" Height="40" Margin="219,245,0,0" VerticalAlignment="Top" Width="335" Click="Button_Connect"/>
+        <Button x:Name="btn_snd" Content="Connect" HorizontalAlignment="Left" Height="40" Margin="219,245,0,0" VerticalAlignment="Top" Width="335" Click="Button_Connect"/>
         <ScrollViewer VerticalScrollBarVisibility="Visible" VerticalContentAlignment="Center" Name="CHAT_SCROLL" Margin="0,314,0,41">
             <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Name="CHAT" Text="" VerticalAlignment="Top" Width="772"/>
         </ScrollViewer>
